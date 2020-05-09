@@ -1,0 +1,50 @@
+
+html {
+    /* px即像素(pixels) 基础字号为10像素 */
+    font-size: 10px;
+    /* 使用微软雅黑 */
+    font-family:"微软雅黑", sans-serif;
+    /* 总体的背景颜色为蓝色 */
+    background-color: #00539F;
+
+}
+
+
+h1{
+    font-size: 48px;
+    /* 标题居中显示 */
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;    
+    color: #00539F;
+    /* 为文本提供阴影 */
+    text-shadow: 3px 3px 1px black;
+}
+
+p,li {
+    font-size: 16px;
+    /* 行高 即字体的高度 */
+    line-height: 2;
+    /* 字体之间的间距 */
+    letter-spacing: 1px;
+
+}
+
+body {
+    /* 页面永远保持600像素宽 */
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    /* padding 内边距为20像素 */
+    padding: 0 20px 20px 20px;
+    /* 为body设置5像素的黑色实线边框 */
+    border: 5px solid black;
+}
+
+img {
+    display: block;   /* 给与img块级行为*/
+    margin: 0 auto;
+}
+
+/* padding 填充和内边距 border 边框  margin 外边距 */
+/* width background-color color text-shadow 文本设置阴影 display显示模式 */
